@@ -28,12 +28,6 @@ export default class MineScreen extends Component {
       <View>
         <Text>Hello, MineScreen!</Text>
         <Text onPress={this._skip.bind(this)}>点击跳转tab</Text>  
-
-        <Button
-          // 跳转  场景名称    参数
-          onPress={() => navigate('Product', { price: '30' })}
-          title="ProductScreen"
-        />
       </View>
     );
   }

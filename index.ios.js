@@ -32,7 +32,7 @@ const Tab = TabNavigator(
         navigationOptions:({navigation}) => ({  
           // 1.在此处设置该tab的导航栏标题
           // 2.在场景的实现中 设置
-          title:'HomeScreen',
+          title:'资讯列表',
           // 文字
           tabBarLabel:'首页',  
           // Icon属性
